@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Learning Front-End Web Development - Contact Us Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name ="description" content="This is a contact page for the Learn Web Development website to allow users to contact the owner's website" />
+    <meta name ="keywords" content="web development, contact, message" />
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display%7CSen&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    
+  <header>
+      <h1>Learn Web Development</h1>
+      <nav id="mainNavBar">
+        <a id="navicon" href="#"><img src="img/navicon.png" alt="navigation icon"></a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="htmlcss.html" class="dropdownButton">HTML/CSS</a></li>
+          <li><a href="javascript.html">JavaScript</a></li>
+          <li><a href="tools.html">More Tools</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+      </nav>
+  </header>
+      
+  <div class="mainContainers">
+    <div id="contactPage">
+        <h2>Contact Us</h2>
+        <p>Please, feel free to contact us. We would love to hear from you.</p>
+     
+
+    <form id="contactForm" action="ml.php" method="post">
+          <label for="firstName">Your first name:</label><br>
+          <input type="text" id="firstName" name="firstName"><br>
+          <label for="lastName">Your last name:</label><br>
+          <input type="text" id="lastName" name="lastName"><br>
+          <label for="email">Your e-mail:</label><br>
+          <input type="email" id="email" name="email"><br>
+          <label for="content">Your message:</label><br>
+          <textarea id="content" name="content" rows="4" ></textarea><br>
+         <input id="submit" type="submit" value="Submit">
+</form>
+</div>
+
+  </div>
+  <footer>
+    <blockquote>&#34;Everyone in this country should learn to program a computer, because it teaches you to think.&#34; Steve Jobs</blockquote>
+    <p>Contact Us: Html Presents - Web Design Lane - Ipsum, CO 01010</p>
+  </footer>
+   
+  </body>
+</html>
